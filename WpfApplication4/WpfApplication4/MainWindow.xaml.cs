@@ -24,5 +24,12 @@ namespace WpfApplication4
         {
             InitializeComponent();
         }
+
+        private void createa()
+        {
+
+            string a = "";
+        }
+
     }
 }
