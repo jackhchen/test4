@@ -51,18 +51,20 @@ namespace WpfApplication4
         /// <summary>
         /// 第三种方法（通过url的方式）
         /// </summary>
-        [STAThread]
+       [STAThread]
         static void Main()
         {
             //定义application对象为着呢哥哥应用程序的入口
             Application app = new Application();
-            app.StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+            //app.StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+            app.StartupUri = new Uri("Canvas.xaml", UriKind.Relative);
             app.ShutdownMode = ShutdownMode.OnLastWindowClose;//设置关闭wpf应用程序模式
-            app.Run();
-            app.Activated += app_Activated;
-            app.Exit += app_Exit;
 
-            MessageBox.Show("3");
+            //app.Activated += app_Activated;
+            //app.Exit += app_Exit;
+            app.Run();
+
+            //MessageBox.Show("3");
 
 
         }
