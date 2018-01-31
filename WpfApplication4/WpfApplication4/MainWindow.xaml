@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="主窗口" Height="400" Width="600">
+   
     <Grid>
         <DockPanel HorizontalAlignment="Left" Height="auto" LastChildFill="False" Margin="69,132,0,0" VerticalAlignment="Top" Width="auto" Grid.Column="3"/>
 
