@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <DockPanel HorizontalAlignment="Left" Height="auto" LastChildFill="False" Margin="69,132,0,0" VerticalAlignment="Top" Width="auto" Grid.Column="3"/>
+
     </Grid>
 </Window>
