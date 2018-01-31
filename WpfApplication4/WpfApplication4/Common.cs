@@ -8,5 +8,14 @@ namespace WpfApplication4
 {
     class Common
     {
+        /// <summary>
+        /// jack add modify2018.1.31
+        /// </summary>
+        public void aaa()
+        {
+
+        }
+
+
     }
 }
