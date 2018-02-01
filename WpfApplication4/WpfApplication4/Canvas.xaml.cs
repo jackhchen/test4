@@ -60,7 +60,7 @@ namespace WpfApplication4
             el.Height = 80;
             el.SetValue(Panel.ZIndexProperty,1);
             el.SetValue(Canvas.LeftProperty, (double)100);
-            el.SetValue(Canvas.LeftProperty, (double)80);
+            el.SetValue(Canvas.TopProperty, (double)80);
             this.can1.Children.Add(el);
 
 

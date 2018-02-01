@@ -57,7 +57,7 @@ namespace WpfApplication4
             //定义application对象为着呢哥哥应用程序的入口
             Application app = new Application();
             //app.StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
-            app.StartupUri = new Uri("Canvas.xaml", UriKind.Relative);
+            app.StartupUri = new Uri("StackPanel.xaml", UriKind.Relative);
             app.ShutdownMode = ShutdownMode.OnLastWindowClose;//设置关闭wpf应用程序模式
 
             //app.Activated += app_Activated;
